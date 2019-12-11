@@ -1,0 +1,69 @@
+/* *, *:before, *:after {
+    box-sizing: inherit;
+  } */
+
+  ::before, ::after{
+      box-sizing: inherit;
+  }
+
+html{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+.log{
+    align-self: flex-start;
+    margin-left: -49px;
+    font-style: bold;
+    font-size: 26px;
+    font-family: serif;
+}
+.cartimg{
+    width: 29px;
+    height: 32px;
+    
+    
+}
+
+.nav {
+    margin-bottom: 15px;
+}
+ 
+.nav:hover{
+    color:rgb(126, 121, 121);
+    
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aquamarine;
+    width: 100%;
+    padding: 20px;
+    margin-left: -10px;
+    margin-top: -6px;
+}
+
+.lgbtn{
+    height: 35px;
+    width: 100px;
+    align-self: flex-end;
+    margin-right: -30px;
+    border: solid black 1px;
+    border-radius:  8px;
+    color: #fff;
+    background-color: rgb(5, 3, 3);
+}
+
+.lgbtn:hover{
+    height: 35px;
+    width: 100px;
+    align-self: flex-end;
+    margin-right: -30px;
+    border: solid rgb(99, 163, 151) 1px;
+    border-radius:  8px;
+    color:black;
+    background-color: aquamarine;
+}
