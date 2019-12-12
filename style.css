@@ -8,14 +8,13 @@
 
 html{
     overflow-x: hidden;
-    overflow-y: hidden;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
 .log{
     align-self: flex-start;
-    margin-left: -49px;
+    margin-left: -30px;
     font-style: bold;
     font-size: 26px;
     font-family: serif;
@@ -41,16 +40,22 @@ html{
     justify-content: space-around;
     background-color: aquamarine;
     width: 100%;
+    top: 0;
     padding: 20px;
-    margin-left: -10px;
-    margin-top: -6px;
+    margin-left: -18px;
+    margin-top: -13px;
+    position: -webkit-sticky;
+    position: sticky;
+    /**-webkit-box-shadow: 0 8px 6px -6px #333;
+    -moz-box-shadow: 0 8px 6px -6px #333;
+    box-shadow: 0 8px 6px -6px #333; **/
 }
 
 .lgbtn{
     height: 35px;
     width: 100px;
     align-self: flex-end;
-    margin-right: -30px;
+    margin-right: -10px;
     border: solid black 1px;
     border-radius:  8px;
     color: #fff;
@@ -61,7 +66,7 @@ html{
     height: 35px;
     width: 100px;
     align-self: flex-end;
-    margin-right: -30px;
+    margin-right: -13px;
     border: solid rgb(99, 163, 151) 1px;
     border-radius:  8px;
     color:black;
