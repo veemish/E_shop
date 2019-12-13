@@ -25,6 +25,45 @@ html{
     
     
 }
+.a1{
+   box-sizing: border-box;
+}
+.A1{
+    display: block;
+    width: 45%;
+    float: left;
+    
+}
+
+.btnget{
+    width: 107px;
+    height: 38px;
+    border:2px solid aqua;
+    background-color:aquamarine ;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.btnget:hover{
+    height: 35px;
+    width: 100px;
+    align-self: flex-end;
+    margin-right: -10px;
+    border: solid black 1px;
+    border-radius:  8px;
+    color: #fff;
+    background-color: rgb(5, 3, 3);
+}
+
+.A2{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.image{
+   height: 500px;
+   width: 669px;
+}
 
 .nav {
     margin-bottom: 15px;
@@ -32,6 +71,7 @@ html{
  
 .nav:hover{
     color:rgb(126, 121, 121);
+  
     
 }
 .bar{
@@ -41,7 +81,8 @@ html{
     background-color: aquamarine;
     width: 100%;
     top: 0;
-    padding: 20px;
+    padding: 25px;
+    margin-bottom: 70px;
     margin-left: -18px;
     margin-top: -13px;
     position: -webkit-sticky;
