@@ -22,9 +22,15 @@ html{
 .cartimg{
     width: 29px;
     height: 32px;
-    
-    
 }
+.tick{
+    height: 20px;
+}
+.lst{
+  list-style: none;
+
+}
+
 .a1{
    box-sizing: border-box;
 }
@@ -32,6 +38,29 @@ html{
     display: block;
     width: 45%;
     float: left;
+    padding: 10px;
+    
+}
+.a2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid aquamarine;
+    margin-top: 44% ;
+    height: 335px;
+    width: auto;
+    text-align: center;
+    background-color: #e0e0e0;
+}
+
+.empty{
+    height: 170px;
+    width: 167px;
+}
+.empty1{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 47px;
+    margin-left: 20px;
     
 }
 
@@ -45,8 +74,8 @@ html{
     margin-left: 20px;
 }
 .btnget:hover{
-    height: 35px;
-    width: 100px;
+    height: 40px;
+    width: 109px;
     align-self: flex-end;
     margin-right: -10px;
     border: solid black 1px;
@@ -108,8 +137,8 @@ html{
     width: 100px;
     align-self: flex-end;
     margin-right: -13px;
-    border: solid rgb(99, 163, 151) 1px;
     border-radius:  8px;
     color:black;
-    background-color: aquamarine;
+    border:2px solid aqua;
+    background-color:aquamarine ;
 }
