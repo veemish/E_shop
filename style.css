@@ -43,47 +43,35 @@ html {
 }
 
 .A1 {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 45%;
   float: left;
   padding: 10px;
 }
- /* .a2 {
-  
-  margin-top: 50%;
-  height: 340px;
+ .a2 {
+  margin-top: 40%;
   text-align: center;
-  display: flex;
-  justify-content: center;
- 
 }
-/*
-.empty {
+
+/*.empty {
   height: 210px;
   width: 220px;
 }
 .empty1 {
   display: flex;
   justify-content: left;
-  margin-bottom: 47px;
   margin-left: 20px;
   width: 35%;
 } */
 
-/*
 .empty2{
-  margin-top: 50px;
-  margin-right: 70px;
-  padding-top: 15px;
+  margin-right: 75px;
   display: flex;    /* display block    float :right    border: 5px solid #bbbbbb;
   background-color: rgb(14, 12, 12)   color: aquamarine;   find a better design.
   */
- /*flex-direction: column;
-  height: 250px ;
-  border-radius: 10px;
-  background-color: #e0e0e0  ;
-  width: 50%;
-} */
+ flex-direction: column;
+} 
 
 .btnget {
   width: 107px;
@@ -101,10 +89,8 @@ html {
   margin-right: -10px;
   border: solid black 1px;
   border-radius: 8px;
-  color: #fff;
   background-color: rgb(5, 3, 3);
 }
-
 
 
 .image {
@@ -159,11 +145,12 @@ html {
   border: 2px solid aqua;
   background-color: aquamarine;
 }
-/*
+.A3{
+  margin-top: 5px;
+  padding: 0%;
+}
+
 .big{
-  
-    font-family: 'Cinzel Decorative', cursive;
-    color: aquamarine;
   font-size: 50px;
   text-align: center;
 }
