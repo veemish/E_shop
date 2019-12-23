@@ -50,8 +50,10 @@ html {
   padding: 10px;
 }
  .a2 {
-  margin-top: 40%;
+  margin-top: 49%;
   text-align: center;
+  padding: 0px;
+  margin-bottom: -5px;
 }
 
 /*.empty {
@@ -66,11 +68,14 @@ html {
 } */
 
 .empty2{
-  margin-right: 75px;
+  
   display: flex;    /* display block    float :right    border: 5px solid #bbbbbb;
   background-color: rgb(14, 12, 12)   color: aquamarine;   find a better design.
   */
  flex-direction: column;
+ width: 100%;
+ margin-bottom: 5px;
+ padding: 0px;
 } 
 
 .btnget {
@@ -146,10 +151,13 @@ html {
   background-color: aquamarine;
 }
 .A3{
-  margin-top: 5px;
+  margin-top: -5px;
   padding: 0%;
 }
 
+.empty3{
+  margin-top: 2px;
+}
 .big{
   font-size: 50px;
   text-align: center;
