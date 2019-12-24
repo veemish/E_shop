@@ -175,17 +175,47 @@ html {
 .iconic{
   height: 45px;
   width: 45px;
+  margin-bottom: 40px;
+   margin-top: 20px;
+
 }
 
 /* starting the first half of the container*/
 
 .container1{
-  
+   width: 50%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   background-color:yellow ;
 }
+
+/*  list styles starts here*/
+.half{
+  box-sizing: border-box;
+  width: 180px;
+  height: 140px;
+  background-color: coral;
+  border: solid 1px black;
+  text-align: center;
+  text-decoration: unset;
+  text-emphasis: none;
+  list-style: none;
+ 
+}
+
+/* */
 
 /*  styles for the second part that has illustrations*/
 
 .iconic2{
-  height: 315px;
-  width: 305px;
+  height: 305px;
+  width: 325px;
+}
+
+/* style for the second part of the container holding illustartions.*/
+
+.container2{
+  width: 50%;
+
 }
