@@ -100,7 +100,7 @@ html {
 
 .image {
   height: 500px;
-  width: 669px;
+  width: 570px;
 }
 
 .nav {
@@ -184,10 +184,10 @@ html {
 
 .container1{
    width: 50%;
-   display: flex;
+   display: ;
+   justify-content: left;
    flex-direction: row;
    flex-wrap: wrap;
-   background-color:yellow ;
 }
 
 /*  list styles starts here*/
@@ -195,7 +195,6 @@ html {
   box-sizing: border-box;
   width: 180px;
   height: 140px;
-  background-color: coral;
   border: solid 1px black;
   text-align: center;
   text-decoration: unset;
@@ -216,6 +215,8 @@ html {
 /* style for the second part of the container holding illustartions.*/
 
 .container2{
-  width: 50%;
+  box-sizing: border-box;
+  width: 49%;
+  justify-content: right;
 
 }
