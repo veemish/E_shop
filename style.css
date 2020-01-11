@@ -223,10 +223,12 @@ html {
 div.container2{
   box-sizing: border-box;
   width: 45%;
+  float: right;
 text-decoration: none;
  /*background-color: brown; */
 margin-left: 600px;
-margin-bottom: 470px; 
+margin-bottom: 470px;
+ 
 
 }
 
@@ -234,13 +236,13 @@ div.container2sld{
   display: flex;
  /*background-color: burlywood; */
  overflow: hidden;
-flex-direction: left;
-
 }
 
 .containers{
  width: 100%;
- /*background-color: cornflowerblue; */
+ height:600px;
+ background-color: cornflowerblue; 
+ position: relative;
 }
 
 /* login form starts here */
