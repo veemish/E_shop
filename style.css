@@ -2,6 +2,7 @@
     box-sizing: inherit;
   } */
 
+
 ::before,
 ::after {
   box-sizing: inherit;
@@ -184,10 +185,7 @@ html {
 
 .container1{
    width: 50%;
-   display: ;
-   justify-content: left;
-   flex-direction: row;
-   flex-wrap: wrap;
+
 }
 
 /*  list styles starts here*/
@@ -200,7 +198,15 @@ html {
   text-decoration: unset;
   text-emphasis: none;
   list-style: none;
- 
+}
+/* trying to style the organised lists here this style for the left hand side lists with icons*/
+.orglists{
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: unset;
+  list-style: none;
+  text-emphasis: none;
 }
 
 /* */
@@ -214,9 +220,55 @@ html {
 
 /* style for the second part of the container holding illustartions.*/
 
-.container2{
+div.container2{
   box-sizing: border-box;
-  width: 49%;
-  justify-content: right;
+  width: 45%;
+text-decoration: none;
+ /*background-color: brown; */
+margin-left: 600px;
+margin-bottom: 470px; 
 
 }
+
+div.container2sld{
+  display: flex;
+ /*background-color: burlywood; */
+ overflow: hidden;
+flex-direction: left;
+
+}
+
+.containers{
+ width: 100%;
+ /*background-color: cornflowerblue; */
+}
+
+/* login form starts here */
+.form{
+  box-sizing: border-box;
+  border: rgb(236, 235, 235) solid 2px;
+  height: 450px;
+  width: 600px;
+  justify-self: center;
+  margin-left: 210px;
+  padding: 100px 150px 100px 150px;
+  margin-top: 20px;
+  
+  
+}
+
+.singin1{
+  padding: 45px;
+}
+
+.input{
+  margin: 10px;
+  height: 25px;
+  width: 150px;
+}
+
+
+
+
+
+/*  login form ends here */

@@ -8,6 +8,7 @@
     <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
      <link rel="stylesheet" href="/style.css">
+     <link rel="icon" href="/images/favicon (1).ico" type="image/x-icon"/>
     <title>LoginForm</title>
 </head>
 <body>
@@ -18,19 +19,26 @@
             <div> <a href="index.html">Home</a>
             </div>
     </div>
-    <div>
-        <div>
+    <div class="form">
+        <div class="sigin1">
             <form action="get">
              Email  <br>
-             <input type="email"> <br>
+             <input type="email" class="input"> <br>
              Password <br>
-             <input type="text">
+             <input type="text"  class="input">
+
+                <br>
+             <button class="signinbtn"> SignIn </button>
 
             </form>
-        </div>
+        </div>         
+        <br>
+        <!-- Or sigin using google--->
+       
+        <br>
         
-        <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
-        <script src="/index.js"></script>
+         <!---  <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+        <script src="/index.js"></script>-->     
 
     </div>
 </body>
