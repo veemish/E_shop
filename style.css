@@ -216,10 +216,9 @@ a:hover{
   box-sizing: border-box;
   width: 180px;
   height: 140px;
-  border: solid 1px rgb(42, 161, 122);
+  border: solid 1px rgb(65, 190, 149);
   text-align: center;
-  color: #fff;
-  background-color:rgb(42, 161, 122) ;
+  background-color:rgb(127, 228, 194) ;
 }
 /* trying to style the organised lists here this style for the left hand side lists with icons*/
 .orglists{
